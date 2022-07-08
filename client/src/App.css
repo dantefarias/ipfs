@@ -1,0 +1,15 @@
+.main {
+  align-items: center;
+  background-color: #538e7b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 18px;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.App {
+  text-align: center;
+}

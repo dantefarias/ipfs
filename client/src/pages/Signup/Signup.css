@@ -1,0 +1,45 @@
+.input-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  margin: 10px;
+}
+
+input[type="text"],
+input[type="password"] {
+  height: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+input[type="submit"] {
+  background: #10855f;
+  border: 1px solid #10855f;
+  color: #fff;
+  cursor: pointer;
+  font-size: 15px;
+  margin-top: 10px;
+  padding: 10px 20px;
+}
+input[type="submit"]:hover {
+  background: #14bf83;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+}
+
+.title {
+  margin-bottom: 3em;
+  text-align: center;
+}
+
+.sign-up-form {
+  background-color: rgba(211, 211, 211, 0.254);
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.21);
+  padding: 2rem;
+}
+
+.form-data {
+  margin-bottom: 4rem;
+}

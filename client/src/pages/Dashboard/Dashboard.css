@@ -1,0 +1,29 @@
+.button-container {
+  margin: 20px;
+};
+
+.dashboard-container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.table-cell {
+  padding-bottom: 0 !important;
+  padding-top: 0 !important;
+}
+
+.id {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+}
+
+.requests {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.requestsLength {
+  font-weight: 700;
+}
