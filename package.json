@@ -5,9 +5,9 @@
   "main": "index.js",
   "scripts": {
     "build": "cd client && npm run build",
-    "install-server": "cd server && cp .env.sample .env && npm install",
+    "install-server": "cd server && cp .env.example .env && npm install",
     "install-client": "cd client && npm install",
-    "install-proxy": "cd proxy && cp .env.sample .env && npm install",
+    "install-proxy": "cd proxy && cp .env.example .env && npm install",
     "install-all": "npm run install-proxy & npm run install-server & npm run install-client"
   },
   "author": "",
